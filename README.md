@@ -1,11 +1,11 @@
 # User Manager NodeJS
 
 ## Short Description
-A User Manager Project, written in NodeJS to create/read/delete/update users in a MongoDB database, manage login/register with or without cookie and PRO feature of user.
+A User Manager Project, written in NodeJS to create/read/delete/update users in a MongoDB database, manage login/register with or without cookie and PRO feature of a user.
  
 ## Features
 
-- Customizable User schema that using mongoose package to comunicate with MongoDB  
+- Customizable User schema that using mongoose package to communicate with MongoDB  
 - CRUD operations for Users and Cookies
 - Login/Logout
 - Registration User 
@@ -16,12 +16,12 @@ A User Manager Project, written in NodeJS to create/read/delete/update users in 
 - Logging
 
 ## Cookie Manager
-In login operation there are two different flow, if there is a cookie in request's header then **Cookie Manager** verify if the cookie is expired, if yes continue with standard login flow and set the cookie with 1 day expires, otherwise do login with cookie.
+In login operation there are two different flow, if there is a cookie in request's header then **Cookie Manager** verify if the cookie is expired, if yes continue with standard login flow and set the cookie with 1 day expires, otherwise do login with the cookie.
 Moreover **Cookie Manager** delete expired cookies with a daily scheduled script.
 
 ## Logout flow
 
-Logout function delete cookie of the User from the database.
+Logout function deletes cookie of the User from the database.
 
 ## Responses Schema
 
@@ -65,7 +65,7 @@ The project is structured as follows:
 If you have local MongoDB server you can just launch commands:
 `npm install`
 
-or eventually in linux
+or eventually in Linux
 
 `sudo npm install`
 
